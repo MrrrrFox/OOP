@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Libraries/students.h
+iostream
+-
+
+/home/stud2018/8perlak/PPO/perlak_lab04/Sources/students.cpp
+students.h
+/home/stud2018/8perlak/PPO/perlak_lab04/Sources/students.h
+iostream
+-
+stdlib.h
+-
+cstring
+-
+

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Libraries/MapDist.h
+MapPoint.h
+../Libraries/MapPoint.h
+
+../Libraries/MapPoint.h
+iostream
+-
+
+/home/stud2018/8perlak/PPO/perlak_lab05/Sources/MapDist.cpp
+MapDist.h
+/home/stud2018/8perlak/PPO/perlak_lab05/Sources/MapDist.h
+cmath
+-
+
+/home/stud2018/8perlak/PPO/perlak_lab05/Sources/MapPoint.cpp
+MapPoint.h
+/home/stud2018/8perlak/PPO/perlak_lab05/Sources/MapPoint.h
+iostream
+-
+cstring
+-
+
+/home/stud2018/8perlak/PPO/perlak_lab05/Sources/main.cpp
+iostream
+-
+MapPoint.h
+/home/stud2018/8perlak/PPO/perlak_lab05/Sources/MapPoint.h
+MapDist.h
+/home/stud2018/8perlak/PPO/perlak_lab05/Sources/MapDist.h
+
